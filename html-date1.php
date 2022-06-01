@@ -26,7 +26,7 @@
           <?php $dayNames=array("月曜日","火曜日","水曜日","木曜日","金曜日","土曜日"); ?>
           <?php foreach($dayNames as $dayName): ?>
             <option value={$dayName}>{$dayName}</option>
-          <?php endforeach: ?>
+          <?php endforeach; ?>
         </select>
       </div>
     </div>
